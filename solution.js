@@ -49,7 +49,7 @@ function solution(A) {
     // this loop is scanning all the sorted positive integers in the array and will return the first missing one as soon as i reaches it
     if (B[i])
         return B[i] + 1;
-    // in case the whole array is scanned and no missing number was found, this if statement is responsible for the highest number in the array + 1
+    // in case all items were consecutive positve ints, then this if statement will be in charge of returning the highest found int in the array + 1
     return 1;
-    // if the program reaches this point for any strange reason, then return 1. 
+    // if the program reaches this point for any strange reason, then return 1 (just to be extra safe). 
 }
