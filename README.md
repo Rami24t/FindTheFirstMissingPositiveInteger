@@ -10,7 +10,7 @@ The challenge is to write a function that, given an array of integers returns th
 
 But the algorithm has to be efficient and high performing.
 
-### Examples and Tests:
+### Examples and Tests
 Examples of Expected Return value/ Tests:
 Given [1, 3, 6, 1, 2], the function should/would return 4.
 Given [1, 2, 3, 4], the function should/would return 5.
