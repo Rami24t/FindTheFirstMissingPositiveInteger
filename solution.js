@@ -9,8 +9,8 @@
 // function solution takes parameter A as the array to be processed and searched for the smallest positive number(if it exists), otherwise -if no positive integer is found- the function would return 1 since 1 is the smallest positive integer.
 
 
-// function def.
-// A : array
+// solution function def.
+// @params A : array
 function solution(A) {
     const B = A.sort((a, b) => a - b);
 // As the first step I decided to sort the array (numerically ascending) and set it to a function-scope const variable B
