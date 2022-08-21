@@ -9,5 +9,5 @@ I crafted this efficient algorithm that solved this test
 // Given A = [1, 2, 3, 4], the function should return 5.
 // Given A = [-1, -6], the function should return 1.
 
-// function solution takes parameter A as the array to be processed and searched for the smallest positive number(if it exists),
-// otherwise -if no positive integer is found- the function would return 1 since 1 is the smallest positive integer.
+// my function solution takes parameter A as the array to be processed and searched for the smallest positive number(if it exists),
+// otherwise -if no positive integer is found- the function would return 1 as 1 is the smallest positive integer.
