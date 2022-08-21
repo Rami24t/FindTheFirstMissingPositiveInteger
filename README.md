@@ -5,7 +5,7 @@ my soluiton: https://github.com/Rami24t/FindTheFirstMissingPositiveInteger/blob/
 
 #### My 100% performance 100% correctness efficient algorithm/solution to solve the coding test found at: https://app.codility.com/c/run/demoP9WWQW-UE3/
 
-###The challenge/test 
+### The challenge/test 
 The challenge is to write a function that, given an array of integers returns the smallest positive integer that does not exist in the array.
 
 But the algorithm has to be efficient and high performing.
