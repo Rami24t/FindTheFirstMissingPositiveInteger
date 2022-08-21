@@ -11,13 +11,21 @@ The challenge is to write a function that, given an array of integers returns th
 But the algorithm has to be efficient and high performing.
 
 ### Examples and Tests
+
 Examples of Expected Return value/ Tests:
+
 Given [1, 3, 6, 1, 2], the function should/would return 4.
+
 Given [1, 2, 3, 4], the function should/would return 5.
+
 Given [-1, -6], the function should/would return 1.
+
 Given [], the function should/would return 1.
+
 Given [1, 2, 3, -5, 5, 6, 7, 4, 8, 9, 10, - 1, 0] , the function should/would return 11.
+
 Given [1, 2, 3, -5, 5, 6, 7, 8, 9, 10, - 1, 0] , the function should/would return 4.
+
 Given [-4,-3,-2,-1,0] , the function should/would return 1.
 
 ### My function and algorithm
