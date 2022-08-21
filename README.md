@@ -10,7 +10,8 @@ The challenge is to write a function that, given an array of integers returns th
 
 But the algorithm has to be efficient and high performing.
 
-For example, given A = [1, 3, 6, 1, 2], the function should return 4.
+Expected Return value examples:
+Given [1, 3, 6, 1, 2], the function should return 4.
 Given [1, 2, 3, 4], the function should return 5.
 Given [-1, -6], the function should return 1.
 Given [], the function should return 1.
