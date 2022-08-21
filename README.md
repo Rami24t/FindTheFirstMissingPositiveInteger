@@ -1,9 +1,9 @@
 # Find The First Missing Positive Integer
 ## I crafted this efficient algorithm that solved this test
 
-my soluiton: https://github.com/Rami24t/FindTheFirstMissingPositiveInteger/blob/main/solution.js
-
 #### My 100% performance 100% correctness efficient algorithm/solution to solve the coding test found at: https://app.codility.com/c/run/demoP9WWQW-UE3/
+
+My soluiton: https://github.com/Rami24t/FindTheFirstMissingPositiveInteger/blob/main/solution.js
 
 ### The challenge/test 
 The challenge is to write a function that, given an array of integers returns the smallest positive integer that does not exist in the array.
