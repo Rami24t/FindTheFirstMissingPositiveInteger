@@ -12,12 +12,16 @@
 // solution function def.
 // @params A : array
 function solution(A) {
+    const length = A.length;
+// const length will holds the length of the array
+
+    if (length < 1)
+        return 1;
+// early detection and termination with returning 1 in the case of an empty array input
+    
     const B = A.sort((a, b) => a - b);
 // As the first step I decided to sort the array (numerically ascending) and set it to a function-scope const variable B
 // (Note that: Even though .sort does sort the A array too and A and B are heap variables and are both references the same array)
-    
-    const length = B.length;
-// const length will holds the length of the array
     
     let i = 0;
 // i will be the index that we will be using throughout the function to scan the array items (ie the integers) starting with the smallest
@@ -47,5 +51,5 @@ function solution(A) {
         return B[i] + 1;
     // in case the whole array is scanned and no missing number was found, this if statement is responsible for the highest number in the array + 1
     return 1;
-    // if the program reaches this point, then return 1. 
+    // if the program reaches this point for any strange reason, then return 1. 
 }
